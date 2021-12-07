@@ -1,17 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link rel = "stylesheet" href = "3011.css">
-    <script src = "3011.js"></script>
+   <title>Grade exercise</title>
+   <link type="text/css" rel="stylesheet" href="712.css" nonce="">
 </head>
 <body>
-    <button type="button" onclick="myFunction()">Click Me!</button>
+    <div class="style1">
+        <div class="style2">
+            <div class="style3">
+            <div>
+                <h1 id="id" class="style4">Register</h1>
+                <span class="style5">Already have an account?</span>
+                <a href="*" class="style6">Login</a>
+            </div>
+
+            <div class="style7">
+                <label id="temp1" class="labelstyle">Name*</label>
+                <input type="text" id ="name" class="inputstyle">
+                <br>
+                <label id="temp2" class="labelstyle">Email*</label>
+                <input type="text" id ="email" class="inputstyle">
+                <br>
+                <label id="temp3" class="labelstyle">Password*</label>
+                <input type="password" id="pwd" class="inputstyle">
+                <input id = "showPwd" type="checkbox" onclick="showPwd()">Show Password
+                <br>
+                <label id="temp4" class="labelstyle">Validate password*</label>
+                <input type="password" id="vpwd" class="inputstyle">
+                <input id = "showPwd" type="checkbox" onclick="showVPwd()">Show Password
+            </div>
+            
+             <div id = "message">
+                <h3 id = "msgText" class = "invalid">Your passwords must be the same</h3>
+            </div>
+
+            <div class="style8">
+                <button class="style9" onclick = "getInfo()">REGISTER</button>
+                <a href="*" class="style10">Forgor your password?</a>
+            </div>
+
+           
     
-    <p id = "demo"></p>
+            </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="712.js"></script>
+    
 </body>
 </html>
