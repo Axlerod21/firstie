@@ -1,3 +1,115 @@
-p {
-    color: aqua;
+.style1{
+    display: flex;
+    min-height: 95vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.style2{
+    border: 3px solid rgb(95, 7, 76);
+    min-height: 70vh;
+    min-width: 30vw;
+    box-shadow: 5px 5px 0px beige;
+    border-radius: 10px;
+}
+
+.style3{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    margin-top: 20px;
+}
+
+.style4{
+    display: inline;
+    margin-left: 10px;
+}
+
+.style5{
+    margin-left: 150px;
+}
+
+.style6{
+    margin-left: 1px;
+    text-decoration: none;
+    color:rgb(95, 7, 76);
+}
+
+.style7{
+    padding-top: 30px;
+}
+
+.labelstyle{
+    margin-left: 6%;
+    background-color: white;
+    color: rgb(95, 7, 76);
+}
+
+.inputstyle{
+    margin-left: 4%;
+    margin-top: -7px;
+    display: block;
+    border: 1px solid rgb(95, 7, 76);
+    height: 33px;
+    width: 88%;
+    border-radius: 4px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.style8{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.style9{
+    background-color: royalblue;
+    margin-left: 102px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    display: block;
+    border: 1px solid rgb(95, 7, 76);
+    height: 33px;
+    width: 60%; 
+    border-radius: 4px;
+}
+
+.style10{
+    text-decoration: none;
+    color:rgb(85, 180, 245);
+}
+
+#showPwd {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    margin-top: 5px;    
+}
+
+#message {
+    display: none;
+}
+
+#msgText {
+    text-align: center;
+}
+
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -8px;
+    content: "V -";
+}
+
+.invalid {
+    color: red;
+  }
+  
+.invalid:before {
+    position: relative;
+    left: -8px;
+    content: "X -";
 }
