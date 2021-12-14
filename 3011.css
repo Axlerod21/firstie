@@ -8,7 +8,7 @@
 
 .style2{
     border: 3px solid rgb(95, 7, 76);
-    min-height: 70vh;
+    min-height: 60vh;
     min-width: 30vw;
     box-shadow: 5px 5px 0px beige;
     border-radius: 10px;
@@ -91,7 +91,9 @@
 }
 
 #msgText {
-    text-align: center;
+    margin-left: 4%;
+    margin-top: -7px;
+    font-size: medium;
 }
 
 .valid {
@@ -101,7 +103,6 @@
 .valid:before {
     position: relative;
     left: -8px;
-    content: "V -";
 }
 
 .invalid {
@@ -111,5 +112,4 @@
 .invalid:before {
     position: relative;
     left: -8px;
-    content: "X -";
 }
