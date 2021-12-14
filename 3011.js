@@ -19,10 +19,6 @@ function getInfo() {
  console.log(data.pass.value);
  console.log(data.vPass.value);
 
-/*for(let i = 0; i < list.length; i++) {
-    data[list[i].id] = list[i].value;
-}*/
-
  return info;
 }
 
@@ -50,7 +46,8 @@ function showPwd() {
     }
   }
 
-
+  var name = document.getElementById("name");
+  var email = document.getElementById("email");
   var pwd = document.getElementById("pwd");
   var myInput = document.getElementById("vpwd");
 
